@@ -6,6 +6,7 @@ body {
     color: #333;
 }
 
+/* グリッドレイアウト */
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -47,7 +48,6 @@ body {
     font-weight: 500;
 
 }
-
 .form-input {
     border: 0;
     background: none;
@@ -82,4 +82,16 @@ body {
 .form input[type = "submit"]:hover {
     background-color: aquamarine;
     border: 2px solid aquamarine;
+}
+.form p {
+    color: white;
+}
+.form a {
+    color: aquamarine;
+}
+::placeholder {
+    color: aquamarine;
+}
+.sign-in {
+    color: aquamarine;
 }
