@@ -65,7 +65,7 @@ body {
     width: 280px;
     background-color: #f0f8ff;
 }
-.form input[type = "submit"] {
+.form input[type = "button"] {
     border: 0;
     background: none;
     display: block;
@@ -79,7 +79,7 @@ body {
     text-align: center;
     cursor: pointer;
 }
-.form input[type = "submit"]:hover {
+.form input[type = "button"]:hover {
     background-color: aquamarine;
     border: 2px solid aquamarine;
 }
